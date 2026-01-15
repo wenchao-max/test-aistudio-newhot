@@ -4,6 +4,6 @@
 #assets = "./dist" # 指向 Vite 构建生成的目录
 
 # 2. （仅参考）如果目标是部署一个Worker脚本（如处理API请求），则应像下面这样配置，但这不是你目前的情况：
- name = "my-api-worker"
- compatibility_date = "2026-01-15"
- main = "./src/worker.js" # 指向你的 Worker 脚本入口文件
+name = "news-hot-engine"
+compatibility_date = "2026-01-15"
+assets = "./dist"
